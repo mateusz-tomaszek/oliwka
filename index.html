@@ -30,60 +30,6 @@
 
     <div class="all">
 
-        <div class="alert">
-            <p>TOO SMALL DEVICE</p>
-        </div>
-
-        <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
-        <script>
-            $(document).ready(function(){
-              // Add smooth scrolling to all links
-              $("a").on('click', function(event) {
-            
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                  // Prevent default anchor click behavior
-                  event.preventDefault();
-            
-                  // Store hash
-                  var hash = this.hash;
-            
-                  // Using jQuery's animate() method to add smooth page scroll
-                  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                  $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                  }, 800, function(){
-            
-                    // Add hash (#) to URL when done scrolling (default click behavior)
-                    window.location.hash = hash;
-                  });
-                } // End if
-              });
-            });
-    
-    
-                    $('#gallery').hover(function(){
-                    $(this).find('img').fadeTo(500, 0.5);
-                }, function(){
-                    $(this).find('img').fadeTo(500, 1);
-                });
-    
-            $('#img1').click(function() {
-                    $('#gallery').find('img').fadeTo(0, 1);
-                    $("#img1").stop().animate({width: 800, height: 533}, 200 );
-                    }).mouseout(function(){
-                    $("#img1").stop().animate({width: 280, height: 187}, 200 );
-                });
-            </script>
-            <script>
-                window.addEventListener('scroll', function() {
-                    var element = document.getElementById('fade-text');
-                    var opacity = 1 - (window.scrollY / window.innerHeight);
-                    element.style.opacity = opacity;
-                });
-            </script>
-           
-
 
            <script>
             function dmIg() {
@@ -96,41 +42,8 @@
 
 
 
-    <nav>
-
-        <div class="nav1">
-            <a href="https://mateusztomaszek.com.pl/">Mateusz Tomaszek</a>
-        </div>
-        <div class="fullnav">
-
-            <ul>
-                <li><a href="https://mateusztomaszek.com.pl">Home</a></li>
-                <!--<li><a href="https://mateusztomaszek.com.pl/pl">Polski</a></li>-->
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#contact">Contact</a></li>
-                
-            </ul>
-        </div>
-                    <div class="menu1">
-                        <img src="https://i.ibb.co/3CGr7tB/menu1.jpg" height="40px" width="40px" alt="menu phone">
-                        <img src="https://i.ibb.co/jkdJD9b/menu2.jpg" class="hover_menu" height="40px" width="40px" alt="menu phone hover">
-
-                        <div class="dropdown"> 
-                            <ul>
-                                <li><a href="https://mateusztomaszek.com.pl">Home</a></li>
-                                <!--<li><a href="https://mateusztomaszek.com.pl/pl">Polski</a></li>-->
-                                <li><a href="#gallery">Gallery</a></li>
-                                <li><a href="#about">About Me</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                                
-                            </ul>
-                        </div>
-                     </div>
-
-    </nav>
     <div class="main1">
-        <div id="fade-text"><a href="#gallery"><span style="font-weight: bold; ">YOU LOVE CARS?</span><br /><span style="font-size: 25px; color: #ebebeb;">CLICK ON LOGO<!--SCROLL DOWN--></span></a></div>
+        <div id="fade-text"><span style="font-weight: bold; ">Site In Progress</span><br /></div>
         <!--<img id="back1" src="other/site_img/back1.webp" alt="background">-->
         
     </div>
@@ -141,86 +54,28 @@
             </div>
 
                 <section class="article1" id="gallery">
-                    <p>Gallery</p>
-                    <a href="https://mateusztomaszek.com.pl/subpages/alpine.html"><img id="img10" src="https://i.ibb.co/vX788xX/10.webp" width="300px" height="300px" alt="Alpine"></a> <!-- 1 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/audi.html"><img id="img8" src="https://i.ibb.co/VHJXvLk/8.webp" width="300px" height="300px" alt="Audi"></a> <!-- 2 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/bmw.html"><img id="img3" src="https://i.ibb.co/5s3nqN1/3.webp" width="300px" height="300px" alt="BMW"></a> <!-- 3 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/bugatti.html"><img id="img2" src="https://i.ibb.co/3TPMN6v/2.webp" width="300px" height="300px" alt="Bugatti"></a> <!-- 4 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/camaro.html"><img id="img14" src="https://i.ibb.co/QjM5BY0/14.webp" width="300px" height="300px" alt="Camaro"></a> <!-- 5 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/corvette.html"><img id="img1" src="https://i.ibb.co/GTgCVqG/1.webp" width="300px" height="300px" alt="Corvette"></a> <!-- 6 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/dodge.html"><img id="img16" src="https://i.ibb.co/TBt90GW/16.webp" width="300px" height="300px" alt="Challenger"></a> <!-- 7 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/ferrari.html"><img id="img5" src="https://i.ibb.co/5GsGZpS/5.webp" width="300px" height="300px" alt="Ferrari"></a> <!-- 8 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/honda"><img id="img9" src="https://i.ibb.co/BPqr78f/9.webp" width="300px" height="300px" alt="Honda"></a> <!-- 9 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/lamborghini.html"><img id="img12" src="https://i.ibb.co/583f2gz/12.webp" width="300px" height="300px" alt="Lamborghini"></a> <!-- 10 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/maserati.html"><img id="img17" src="https://i.ibb.co/Xx7VnVS/17.webp" width="300px" height="300px" alt="Maserati"></a> <!-- 11 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/mazda.html"><img id="img19" src="https://i.ibb.co/XjHMZGy/19.webp" width="300px" height="300px" alt="Mazda"></a> <!-- 12 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/mclaren.html"><img id="img4" src="https://i.ibb.co/xDyyfvC/4.webp" width="300px" height="300px" alt="McLaren"></a> <!-- 13 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/mercedes.html"><img id="img15" src="https://i.ibb.co/5xJfqMG/15.webp" width="300px" height="300px" alt="Mercedes"></a> <!-- 14 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/mitsubishi.html"><img id="img18" src="https://i.ibb.co/kJm8c1f/18.webp" width="300px" height="300px" alt="Mitsubishi"></a> <!-- 15 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/nissan.html"><img id="img11" src="https://i.ibb.co/JQTgNbd/11.webp" width="300px" height="300px" alt="Nissan"></a> <!-- 16 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/porsche.html"><img id="img13" src="https://i.ibb.co/LQ7769j/13.webp" width="300px" height="300px" alt="Porsche"></a> <!-- 18 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/subaru.html"><img id="img7" src="https://i.ibb.co/QPww8F6/7.webp" width="300px" height="300px" alt="Subaru"></a> <!-- 17 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/toyota.html"><img id="img6" src="https://i.ibb.co/rZdpXp8/6.webp" width="300px" height="300px" alt="Toyota"></a> <!-- 19 -->
-                    <a href="https://mateusztomaszek.com.pl/subpages/volkswagen.html"><img id="img20" src="https://i.ibb.co/S7pmqVJ/20.webp" width="300px" height="300px" alt="Volkswagen"></a> <!-- 20 -->
-
+                    <p>Some photos</p>
+                    <img id="img10" src="https://i.ibb.co/xYqhbSX/1.jpg" width="300px" height="300px" alt="Alpine"> <!-- 1 -->
+                    <img id="img8" src="https://i.ibb.co/W20bf2b/2.jpg" width="300px" height="300px" alt="Audi"> <!-- 2 -->
+                    <img id="img3" src="https://i.ibb.co/QCPfJZf/3.jpg" width="300px" height="300px" alt="BMW"> <!-- 3 -->
+                    <img id="img2" src="https://i.ibb.co/6Z2f7TM/4.jpg" width="300px" height="300px" alt="Bugatti"> <!-- 4 -->
                     
                     
                 </section>
 
                 <section class="article2" id="about">
-                    <p>About Me</p>
+                    <p>Contact</p>
                         <div class="me1">
                             <a href="https://www.facebook.com/mateusz.tomaszek.21/" id="fb"><img src="https://i.ibb.co/JrrH8nb/fb.webp" width="90px" height="90px" alt="facebook"></a>
                             <a href="https://www.instagram.com/mateusz_tomaszek_" id="ig"><img src="https://i.ibb.co/XJx44R8/ig.webp" width="90px" height="90px" alt="instagram"></a>
                             <a href="https://open.spotify.com/user/6n4qalak8dxcz9znnfdu379sh?si=29918840f03543c4" id="sp"><img src="https://i.ibb.co/L5LbRqL/sp.webp" width="90px" height="90px" alt="spotify"></a>
                         </div>
-                        <div class="me2"><wbr>
-                            <div class="li1">
-
-                                <ul>	
-                                    <li>&#128247 Photographer</li>
-                                    <li>&#128204 Gliwice, PL</li>
-                                    <li>&#11088 Dream Car: Corvette C8</li>
-                                    <li>&#128663 My Car: BMW e87</li>
-                                </ul>
-                                    
-                            </div>
-
-                            <div class="li2">
-
-                                    <ul>
-                                        <li>&#128160 Sony DSLR-A500</li>
-                                        <li>&#128160 Sony DT f1.8/50mm SAM</li>
-                                        <li>&#128160 Sony DT f3.5-5.6/18-55mm SAM II</li>
-                                        <li>&#128160 Sigma f4-5.6/70-300mm</li>
-                                    </ul>
-
-                            </div>
-
-                        </div>
-                </section>
-                <section class="article3" id="contact">
-                    <p style="font-size: 45px; margin-bottom: -20px;">Want Photos?<p>
-                    <p>Contact</p>
-
-                        <label>
-                            <button id="dm" class="btn" onclick="dmIg()">
-                                DM on Instagram
-                            </button>
-                        </label>
-                        <label>
-                            <button id="dm2" class="btn" onclick="dmMail()">
-                                DM with Email
-                            </button>
-                        </label>
-                            
-
-                    <footer>
-                        <p>© Copyright 2023 Mateusz Tomaszek. All Rights Reserved.</p>
-                    </footer>
                 </section>
                 
         </article>
     </div>
 </body>
 </html>
+
+
+
