@@ -1,0 +1,161 @@
+*
+{
+    font-family: arial;
+}
+
+body
+{
+    background: linear-gradient(318deg, rgba(19,19,19,1) 0%, rgb(19, 19, 19) 35%, rgb(19, 19, 19) 100%);
+}
+.all
+{
+    border-radius: 16px;
+    text-align: center;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: #131313;
+  }
+  
+
+::-webkit-scrollbar-thumb {
+    background: #404040;
+  }
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background: #606060;
+  }
+
+/*------------------------------*/
+
+
+.title
+  {
+    margin-top: 5%;
+   
+    font-size: 250%;
+  }
+
+.desc
+{
+    margin: 1%;
+    font-size: 60%;
+}
+
+.foot
+{
+    font-size: 120%;
+    margin-top: 6%;
+    padding: 3%;
+
+
+}
+
+.social a
+{
+    margin-left:0.5%;
+    margin-right: 0.5%;
+}
+.social a:hover
+{
+    filter: brightness(125%);
+    transition: 200ms;
+    box-shadow: 10px 10px 13px 5px rgba(0, 0, 0, 0.466);
+
+}
+
+.social a:not(:hover)
+{
+
+    filter: brightness(100%);
+    transition: 200ms;
+}
+
+
+.social
+{
+    margin-top: 3%;
+    font-size: 190%;
+}
+.contact
+{
+    font-size: 190%;
+}
+.contact p
+{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.social p
+{
+    margin-bottom: 2%;
+}
+
+.contact button
+{
+    padding: 0.7rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-size: 55%;
+    font-weight: 0;
+    border-radius: 10px;
+    background-color: #131313;
+    color: white;
+    border: solid;
+    transition: 40ms;
+    box-shadow: 10px 10px 13px 5px rgba(0, 0, 0, 0.466);
+}
+
+.contact button:hover
+{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    transition: 40ms;
+    font-weight: bold;
+    box-shadow: 10px 10px 13px 5px rgba(0, 0, 0, 0.466);
+}
+
+
+  @media (max-width: 347px){
+
+#img1{height: 250px; width: 250px;}
+#img2{height: 250px; width: 250px;}
+#img3{height: 250px; width: 250px;}
+#img4{height: 250px; width: 250px;}
+#img5{height: 250px; width: 250px;}
+#img6{height: 250px; width: 250px;}
+#img7{height: 250px; width: 250px;}
+#img8{height: 250px; width: 250px;}
+#img9{height: 250px; width: 250px;}
+#img10{height: 250px; width: 250px;}
+#img11{height: 250px; width: 250px;}
+#img12{height: 250px; width: 250px;}
+#img13{height: 250px; width: 250px;}
+#img14{height: 250px; width: 250px;}
+#img15{height: 250px; width: 250px;}
+#img16{height: 250px; width: 250px;}
+#img17{height: 250px; width: 250px;}
+#img18{height: 250px; width: 250px;}
+#img19{height: 250px; width: 250px;}
+#img20{height: 250px; width: 250px;}
+  }
+
+  .gallery img:hover
+  {
+      filter: brightness(85%);
+      transition: 200ms;
+  
+  }
+  
+  .gallery img:not(:hover)
+  {
+  
+      filter: brightness(100%);
+      transition: 200ms;
+  }
