@@ -1,6 +1,12 @@
+@font-face {
+    font-family: 'clip'; /* Dowolna nazwa, którą nadajesz czcionce */
+    src: url('files/clip.ttf') format('truetype');
+    /* Jeśli plik czcionki znajduje się w innym folderze, dostosuj ścieżkę url() */
+}
+
 *
 {
-    font-family: arial;
+    font-family: clip;
 }
 
 body
