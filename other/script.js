@@ -24,10 +24,11 @@ function sprawdzHaslo() {
       wyswietlZawartosc();
   } else {
       alert("Błędne hasło. Spróbuj ponownie.");
+      sprawdzHaslo();
   }
 }
 
 function wyswietlZawartosc() {
   document.getElementById("haslo").style.display = "block";
-  hideFullscreen()
+  hideFullscreen();
 }
