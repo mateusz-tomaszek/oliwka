@@ -12,3 +12,22 @@ function hideFullscreen() {
   
   fullscreenContainer.style.display = 'none';
 }
+
+
+
+
+
+function sprawdzHaslo() {
+  var haslo = prompt("Wprowadź hasło:");
+
+  if (haslo === "130823") {
+      wyswietlZawartosc();
+  } else {
+      alert("Błędne hasło. Spróbuj ponownie.");
+  }
+}
+
+function wyswietlZawartosc() {
+  document.getElementById("haslo").style.display = "block";
+  hideFullscreen()
+}

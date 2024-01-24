@@ -20,6 +20,11 @@
     background: #606060;
   }
 
+#haslo
+{
+    display: none;
+}
+
 *
 {
     margin: 0;
