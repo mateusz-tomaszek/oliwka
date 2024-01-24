@@ -2,3 +2,43 @@
     font-family: 'clip'; 
     src: url('other/clip.ttf') format('truetype');
 }
+
+*
+{
+    margin: 0;
+}
+body
+{
+    background-image: url("/other/img/background.jpg");
+}
+
+.head
+{
+    position: absolute;
+    top: 0%;
+    height: 15%;
+    width: 100%;
+
+}
+.head h1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    font-family: clip;
+    font-size: 500%;
+    color: white;
+    word-spacing: 10px;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(255, 145, 246),
+    0 0 82px rgb(255, 0, 255),
+    0 0 92px rgb(255, 0, 221),
+    0 0 102px rgb(225, 0, 255),
+    0 0 151px rgb(140, 0, 255);
+
+}
