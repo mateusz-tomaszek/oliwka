@@ -9,7 +9,8 @@
 }
 body
 {
-    background-image: url("/other/img/background.jpg");
+background-color:#191919;
+
 }
 
 .head
@@ -38,7 +39,39 @@ body
     0 0 42px rgb(255, 145, 246),
     0 0 82px rgb(255, 0, 255),
     0 0 92px rgb(255, 0, 221),
-    0 0 102px rgb(225, 0, 255),
-    0 0 151px rgb(140, 0, 255);
+    0 0 102px rgb(43, 43, 43),
+    0 0 151px rgb(20, 20, 20);
 
+}
+
+
+
+
+
+
+
+@media (min-width: 0px)
+{
+    .head h1
+    {
+        font-size: 210%; 
+    }
+}
+
+@media (min-width: 400px)
+{
+    .head h1
+    {
+        font-size: 270%; 
+    }
+}
+
+/*------------------------------*/
+
+@media (min-width: 614px)
+{
+    .head h1
+    {
+        font-size: 400%; 
+    }
 }
