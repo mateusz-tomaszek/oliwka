@@ -189,3 +189,23 @@ font-family: arial;
         font-size: 600%; 
     }
 }
+
+
+
+a
+{
+    text-decoration: none;
+    color:white;
+}
+a:link
+{  
+    color:white;
+}
+a:visited
+{
+    color:white;
+}
+a:hover
+{
+    color:rgb(165, 165, 165);
+}
