@@ -87,6 +87,7 @@ font-family: arial;
     top: 50%;
     width: 80%;
     left: 10%;
+
 }
 .center img
 {
@@ -123,7 +124,7 @@ font-family: arial;
     }
     .center
     {
-        top: 97%;
+        top: 120%;
     }
     .info p
     {
@@ -236,10 +237,11 @@ font-family: arial;
     }
 }
 
+
 /*------------------------------*/
 
 
-@media (max-height: 699px)
+@media (max-height: 1099px)
 {
 
     .info p
@@ -248,7 +250,7 @@ font-family: arial;
     }
     .menu
     {
-        top: 10%;
+        top: 60%;
     }
     .info
     {
@@ -260,7 +262,7 @@ font-family: arial;
     }
 }
 
-@media (min-height: 700px)
+@media (min-height: 1100px)
 {
     .info p
     {
