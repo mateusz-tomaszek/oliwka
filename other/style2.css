@@ -72,6 +72,7 @@ font-family: arial;
 {
     text-align: center;
     font-size: 190%;
+    
 }
 
 
@@ -164,9 +165,25 @@ font-family: arial;
     {
         font-size: 600%; 
     }
+    .info p
+    {
+        font-size: 130%;
+    }
 }
 
+/*------------------------------*/
 
+@media (min-width: 1500px)
+{
+    .info p
+    {
+        font-size: 150%;
+    }
+    .center
+    {
+        top: 87%;
+    }
+}
 
 a
 {
