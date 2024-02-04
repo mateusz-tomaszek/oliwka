@@ -73,7 +73,10 @@ font-family: arial;
     text-align: center;
     font-size: 190%;
     margin-top: 1%;
-    
+    border: #191919;
+    border-bottom: groove 5px #ffffff;
+    padding-bottom: 26px;
+
 }
 
 
@@ -158,6 +161,10 @@ font-family: arial;
     {
         margin-left: 0px;
     }
+    .menu ul
+    {
+        width: 400px;
+    }
 }
 
 /*------------------------------*/
@@ -207,6 +214,80 @@ font-family: arial;
     }
 }
 
+
+
+
+
+/*------------------------------*/
+/*------------------------------*/
+/*------------------------------*/
+
+
+@media (max-height: 449px)
+{
+
+    .info
+    {
+        top: 20%;
+    }
+    .menu
+    {
+        top: -70%;
+    }
+}
+
+/*------------------------------*/
+
+
+@media (max-height: 699px)
+{
+
+    .info p
+    {
+        font-size: 130%;
+    }
+    .menu
+    {
+        top: 10%;
+    }
+    .info
+    {
+        top: 55%
+    }
+    .center
+    {
+        top:160%;
+    }
+}
+
+@media (min-height: 700px)
+{
+    .info p
+    {
+        font-size: 130%;
+    }
+    .menu
+    {
+        top: 70%;
+    }
+    .info
+    {
+        top: 45%
+    }
+    .center
+    {
+        top:93%;
+    }
+}
+
+
+
+
+
+
+
+
+
 a
 {
     text-decoration: none;
@@ -231,7 +312,6 @@ a:hover
     text-align: center;
     position: absolute;
 
-    top: 40%;
     left: 10%;
     width: 77%;
     font-size: 110%;
@@ -306,7 +386,7 @@ a:hover
 
       .menu 
       {
-        top: 40%;
+        
         position: absolute;
         text-align: center;
         width: 100%;
