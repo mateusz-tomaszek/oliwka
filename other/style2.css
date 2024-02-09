@@ -325,7 +325,11 @@ a:hover
 
 
     
-    background-image: repeating-linear-gradient(46deg, #05f8c3, #05f8c3 7.36px, transparent 8px, transparent 21.8px, #05f8c3 23px), repeating-linear-gradient(136deg, #05f8c3, #05f8c3 7.36px, transparent 8px, transparent 21.8px, #05f8c3 23px), repeating-linear-gradient(226deg, #05f8c3, #05f8c3 7.36px, transparent 8px, transparent 21.8px, #05f8c3 23px), repeating-linear-gradient(316deg, #05f8c3, #05f8c3 7.36px, transparent 8px, transparent 21.8px, #05f8c3 23px);
+    background-image: repeating-linear-gradient(46deg, #bf05f8, #bf05f8 7.36px, transparent 8px, transparent 21.8px, #bf05f8 23px)
+    , repeating-linear-gradient(136deg, #bf05f8, #bf05f8 7.36px, transparent 8px, transparent 21.8px, #bf05f8 23px), 
+    repeating-linear-gradient(226deg, #bf05f8, #bf05f8 7.36px, transparent 8px, transparent 21.8px, #bf05f8 23px), 
+    repeating-linear-gradient(316deg, #bf05f8, #bf05f8 7.36px, transparent 8px, transparent 21.8px, #bf05f8 23px);
+    
     background-size: 4px calc(100% + 33.11px), calc(100% + 33.11px) 4px, 4px calc(100% + 33.11px) , calc(100% + 33.11px) 4px;
     background-position: 0 0, 0 0, 100% 0, 0 100%;
     background-repeat: no-repeat;
