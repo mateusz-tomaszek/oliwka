@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: https://oliwka.mateusztomaszek.com.pl/sitemap.xml
+Sitemap: https://oliwka.mateusz-tomaszek.pl/sitemap.xml
