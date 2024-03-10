@@ -9,7 +9,7 @@ body
 {
     background: url(https://i.ibb.co/T8pjZ1f/back.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100vh;
 }
 
 
